@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* This crops the image to fit within 200x200 */
+    border-radius: 50%; /* Optional: Makes the image circular */
+    border: 3px solid #ddd;
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #444;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: inherit; /* Makes the link take the same color as surrounding text */
+    text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better usability */
+    color: #555; /* Optional: Slightly change color on hover */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
